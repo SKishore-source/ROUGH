@@ -287,7 +287,8 @@ Worker Guidance
 
 ### Circuit / Wiring Diagram
 
-*Insert Smart Helmet wiring diagram here.*
+<img width="1280" height="698" alt="image" src="https://github.com/user-attachments/assets/4fb6ce3d-6fa5-40f2-a99a-8613e1c76c43" />
+
 
 ---
 
