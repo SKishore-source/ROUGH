@@ -182,11 +182,9 @@ Workers Guided To Safety
 
 ## AI Dispatch Engine
 
-1. Install Python dependencies.
-2. Configure FastAPI server.
-3. Configure AI model credentials.
-4. Start WebSocket services.
-5. Enable routing engine.
+1. Configure AI model credentials.
+2. Start WebSocket services.
+3. Enable routing engine.
 
 ## Nexus Dashboard
 
@@ -240,20 +238,6 @@ Worker Guidance
 
 <img width="1280" height="698" alt="image" src="https://github.com/user-attachments/assets/4fb6ce3d-6fa5-40f2-a99a-8613e1c76c43" />
 
-
----
-
-# Security Measures
-
-- Secure API communication
-- WebSocket-based real-time messaging
-- AI fallback mechanisms
-- Offline heuristic decision engine
-- Local device-level alert functionality
-- Redundant emergency processing pathways
-
----
-
 # Testing & Performance
 
 ## Tested Functions
@@ -302,7 +286,7 @@ Worker Guidance
 
 ---
 
-# Demo Screenshots / Video
+# Demo Screenshots 
 
 ## Prototype
 
@@ -315,15 +299,4 @@ Worker Guidance
 
 ---
 
-# References
 
-1. Ministry of Road Transport and Highways Accident Reports
-2. Supreme Court of India Golden Hour Care Ruling (2025)
-3. Arduino UNO R4 WiFi Documentation
-4. MPU6050 Datasheet
-5. MQ-2 Gas Sensor Documentation
-6. FastAPI Documentation
-7. Leaflet.js Documentation
-8. Emergency Medical Services Research Publications
-
----
