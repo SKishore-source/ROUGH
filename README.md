@@ -243,7 +243,7 @@ Workers Guided To Safety
 2. Connect to backend API.
 3. Open tactical command interface.
 4. Monitor live emergency events.
-
+<img width="2000" height="1545" alt="SS FINAL" src="https://github.com/user-attachments/assets/73cde45f-5be9-4db1-8935-810fa2f53dc3" />
 ---
 
 # Hardware Components
