@@ -316,9 +316,6 @@ LED Evacuation Indicators
 ### Hardware Prototype
 
 
-### Dashboard
-*Insert dashboard screenshots here.*
-
 ### Demo Video
 *Insert video link here.*
 
