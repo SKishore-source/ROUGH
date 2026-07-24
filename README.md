@@ -74,8 +74,6 @@ ARGUS GUARD helps detect emergencies, verify incidents, guide workers to safety,
 - HC-SR501 PIR Sensor
 - MQ-2 Gas Sensor
 - DHT11 / DHT22 Temperature Sensor
-- IR Flame Sensor
-- WS2812B LED Strip
 - Push Button
 - Active Buzzer
 
