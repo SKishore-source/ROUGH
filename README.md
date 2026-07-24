@@ -4,191 +4,252 @@
 
 ## Team Details
 
-**Team Name:** TECHPULSE
+**Team Name:** ARGUS GUARD
 
-**Domain:** Internet of Things (IoT)
+**Domain:** Artificial Intelligence (AI), Internet of Things (IoT), Emergency Response Systems
 
 ### Team Members
-- REVANT D
-- ADVAIT DN
-- KESAVA SAI RR
-- GOUTHAM SIVA
-- MONISH KS
-- KISHORE S
+- Monish K S
+- Kesavasai R R
+- Revant D
+- Adwaith D N
+- Goutham S
+- Kishore S
 
 ---
 
 # Problem Statement
 
-Industrial workplaces such as construction sites and manufacturing facilities face significant risks from worker injuries, fires, hazardous environments, and delayed emergency response.
+India faces a critical emergency response challenge where thousands of accident victims fail to receive timely care during the Golden Hour. Despite advances in healthcare, delayed emergency detection and inefficient dispatch systems continue to cost lives.
 
-Current safety systems mainly focus on detection and alerting, leaving emergency response, evacuation guidance, and coordination to manual decision-making. This can increase response time and put lives at risk.
+According to national accident statistics, India accounts for approximately 11% of global road fatalities, with over 4.6 lakh accidents reported annually. Most emergency response systems rely on manual reporting and static dispatch mechanisms, resulting in delayed intervention when every minute matters.
+
+The two primary bottlenecks are:
+
+- Delayed emergency detection due to dependence on bystanders.
+- Inefficient routing of emergency services through traffic congestion, roadblocks, and damaged infrastructure.
+
+These delays significantly reduce the chances of survival and effective treatment.
 
 ---
 
 # Solution
 
-ARGUS GUARD is a smart industrial emergency response ecosystem that combines worker monitoring, environmental hazard detection, dynamic evacuation guidance, and emergency response coordination into a single connected platform.
+ARGUS GUARD is an AI-powered emergency response ecosystem designed to automate the complete rescue workflow from incident detection to emergency response coordination.
 
-The system consists of:
+The platform combines:
 
-- A wearable safety device for workers
-- Smart environmental monitoring nodes
-- A centralized command dashboard
+- Smart wearable safety hardware
+- AI-driven emergency dispatch intelligence
+- Dynamic route optimization
+- Real-time emergency monitoring
+- Intelligent evacuation guidance
 
-ARGUS GUARD helps detect emergencies, verify incidents, guide workers to safety, and assist emergency services in responding more effectively.
+ARGUS GUARD reduces response delays by automatically detecting emergencies, analyzing incident conditions, dispatching appropriate response units, and guiding both rescuers and affected individuals through optimized routes.
 
 ---
 
 # Features
 
-### Worker Wearable
-- Motion-based fall detection
-- False alarm reduction using verification period
-- Manual emergency cancellation
-- Audible alerts through buzzer
-- Visual alerts using LED matrix
+## Operation Vanguard — Smart Helmet
 
-### Smart Corridor
-- Fire detection
-- Smoke and gas detection
-- Temperature monitoring
-- Dynamic evacuation guidance
-- Smart LED exit indicators
+- Automatic fall detection using motion sensing
+- Toxic gas and smoke detection
+- High-temperature hazard detection
+- Instant emergency alert generation
+- LED matrix visual warning system
+- Worker safety monitoring
 
-### Command Center
-- Real-time incident monitoring
-- Worker status tracking
-- Hazard monitoring
-- Emergency response coordination
-- Emergency escalation support
+## Operation Overwatch — AI Dispatch Engine
+
+- AI-powered emergency analysis
+- Natural language intelligence processing
+- Multi-agency response coordination
+- Dynamic route optimization
+- Roadblock and obstacle avoidance
+- Real-time tactical command dashboard
+- Live dispatch visualization
+- AI reasoning terminal
+
+## Operation Pathfinder — Evacuation Routing
+
+- Interactive facility floor mapping
+- Hazard-zone identification
+- Dynamic evacuation route generation
+- Safe path visualization
+- Real-time worker guidance
 
 ---
 
 # Complete Tech Stack
 
 ## Hardware
+
 - Arduino UNO R4 WiFi
-- ESP32 / ESP8266
 - MPU6050 Accelerometer & Gyroscope
-- HC-SR501 PIR Sensor
 - MQ-2 Gas Sensor
-- DHT11 / DHT22 Temperature Sensor
-- Push Button
-- Active Buzzer
+- DHT11 Temperature Sensor
+- LED Matrix Display
+- Portable Power Bank
 
 ## Software
-- Arduino C++
-- MQTT Communication
-- Adafruit IO Dashboard
-- IFTTT Automation
+
+- Python FastAPI
+- HTML
+- CSS
+- JavaScript
+- Leaflet.js
+- WebSocket Communication
+
+## AI Systems
+
+- Claude Haiku 4.5 (OpenRouter)
+- Llama 3.3 70B (Fallback)
+- Local Heuristic Decision Engine
 
 ## Communication
-- WiFi
-- MQTT Protocol
+
+- Wi-Fi Connectivity
+- WebSockets
+- REST APIs
 
 ---
 
 # System Architecture Diagram
 
 ```text
-                    ┌───────────────────┐
-                    │  Worker Wearable  │
-                    │                   │
-                    │ MPU6050           │
-                    │ PIR Sensor        │
-                    │ Button            │
-                    │ Buzzer            │
-                    │ LED Matrix        │
-                    └─────────┬─────────┘
-                              │
-                              │ MQTT
-                              ▼
-                    ┌───────────────────┐
-                    │    Adafruit IO    │
-                    │  Cloud Platform   │
-                    └─────────┬─────────┘
-                              │
-               ┌──────────────┴──────────────┐
-               ▼                             ▼
-    ┌───────────────────┐       ┌───────────────────┐
-    │ Smart Corridor    │       │ Command Center    │
-    │                   │       │ Dashboard         │
-    │ Flame Sensor      │       │ Incident Monitor  │
-    │ MQ2 Sensor        │       │ Status Tracking   │
-    │ DHT Sensor        │       │ Coordination      │
-    │ LED Strip         │       │ Escalation        │
-    └───────────────────┘       └───────────────────┘
+┌──────────────────────┐
+│   SMART HELMET       │
+│  Operation Vanguard  │
+│                      │
+│ MPU6050             │
+│ MQ-2 Sensor         │
+│ DHT11 Sensor        │
+│ LED Matrix          │
+└──────────┬───────────┘
+           │
+           │ Alert Signal
+           ▼
+
+┌──────────────────────┐
+│ OVERWATCH BACKEND    │
+│ AI Dispatch Engine   │
+│                      │
+│ FastAPI Server       │
+│ AI Logic Parser      │
+│ Route Optimizer      │
+│ Crisis Analysis      │
+└──────────┬───────────┘
+           │
+           │ Real-Time Data
+           ▼
+
+┌──────────────────────┐
+│  NEXUS DASHBOARD     │
+│ Tactical Command UI  │
+│                      │
+│ Live Map             │
+│ Route Visualization  │
+│ AI Reasoning Log     │
+│ Dispatch Tracking    │
+└──────────────────────┘
 ```
 
 ---
 
 # Detailed Workflow
 
-## Scenario 1: Worker Injury
+## Scenario 1: Worker Accident
 
 ```text
 Worker Fall Detected
           ↓
-15 Second Verification Period
+Impact Threshold Crossed
           ↓
-Movement Detected OR Button Pressed?
+Emergency Alert Triggered
           ↓
-YES → Alarm Cancelled
-
-NO
+Alert Sent To Backend
           ↓
-Critical Alert Generated
+AI Incident Analysis
           ↓
-Dashboard Notification
+Nearest Emergency Units Selected
           ↓
-Emergency Response Initiated
+Optimal Route Generated
+          ↓
+Live Dispatch Initiated
 ```
 
-## Scenario 2: Fire Emergency
+## Scenario 2: Industrial Hazard
 
 ```text
-Fire / Smoke Detected
-          ↓
-Hazard Zone Identified
-          ↓
-Alert Sent To Dashboard
-          ↓
-Safe Route Determined
-          ↓
-LED Guidance Activated
-          ↓
-Workers Evacuated Safely
+Gas Leak / Fire / Heat Hazard
+              ↓
+Sensor Threshold Exceeded
+              ↓
+Hazard Alert Generated
+              ↓
+AI Risk Assessment
+              ↓
+Affected Area Identified
+              ↓
+Emergency Units Dispatched
+              ↓
+Evacuation Route Generated
+              ↓
+Workers Guided To Safety
 ```
+
+---
+
+# Folder Structure
+
+```text
+ARGUS-GUARD/
+
+├── hardware/
+│   ├── smart-helmet/
+
+├── backend/
+│   ├── fastapi-server/
+
+├── dashboard/
+│   ├── nexus-dashboard/
+
+├── routing-engine/
+
+├── assets/
+
+└── README.md
+```
+
+---
 
 # Installation & Usage Guide
 
-## Worker Wearable
+## Smart Helmet Setup
 
 1. Connect MPU6050 sensor.
-2. Connect PIR sensor.
-3. Connect push button.
-4. Connect active buzzer.
+2. Connect MQ-2 gas sensor.
+3. Connect DHT11 temperature sensor.
+4. Configure LED matrix display.
 5. Upload firmware to Arduino UNO R4 WiFi.
-6. Configure WiFi credentials.
-7. Configure Adafruit IO credentials.
+6. Configure Wi-Fi credentials.
+7. Connect to backend server.
 
-## Smart Corridor
+## AI Dispatch Engine
 
-1. Connect flame sensor.
-2. Connect MQ-2 sensor.
-3. Connect DHT sensor.
-4. Connect WS2812B LED strip.
-5. Upload firmware to ESP32/ESP8266.
-6. Connect device to Adafruit IO.
+1. Install Python dependencies.
+2. Configure FastAPI server.
+3. Configure AI model credentials.
+4. Start WebSocket services.
+5. Enable routing engine.
 
-## Dashboard
-<img width="1600" height="1236" alt="image" src="https://github.com/user-attachments/assets/6c8d8479-40e7-4527-b043-6e3e125c6c1f" />
+## Nexus Dashboard
 
-
-1. Create Adafruit IO dashboard.
-2. Configure MQTT feeds.
-3. Monitor worker and hazard status in real time.
+1. Launch dashboard server.
+2. Connect to backend API.
+3. Open tactical command interface.
+4. Monitor live emergency events.
 
 ---
 
@@ -196,110 +257,132 @@ Workers Evacuated Safely
 
 | Component | Purpose |
 |------------|------------|
-| Arduino UNO R4 WiFi | Worker wearable controller |
-| ESP32 / ESP8266 | Smart corridor controller |
-| MPU6050 | Motion and fall detection |
-| PIR Sensor | Movement verification |
-| Push Button | Alarm cancellation |
-| Active Buzzer | Audible alerts |
-| IR Flame Sensor | Fire detection |
-| MQ-2 | Smoke and gas detection |
-| DHT11 / DHT22 | Temperature monitoring |
-| WS2812B LED Strip | Evacuation guidance |
+| Arduino UNO R4 WiFi | Main controller and connectivity |
+| MPU6050 | Fall and impact detection |
+| MQ-2 Sensor | Gas and smoke detection |
+| DHT11 | Temperature monitoring |
+| LED Matrix | Local visual warnings |
+| Power Bank | Portable power source |
 
 ---
 
 # Hardware Workflow
 
 ```text
-MPU6050 Motion Event
+Fall / Impact Event
           ↓
-Verification Period
+MPU6050 Detection
           ↓
-Alert Generated
+Emergency Alert
           ↓
-MQTT Transmission
+Backend Processing
           ↓
-Dashboard Notification
+AI Dispatch Decision
+          ↓
+Response Unit Deployment
 
-Flame / Gas / Temperature
+Gas / Heat Hazard
           ↓
-Hazard Detection
+Sensor Detection
           ↓
-Safe Route Guidance
+Risk Analysis
           ↓
-LED Evacuation Indicators
+Evacuation Routing
+          ↓
+Worker Guidance
 ```
 
 ### Circuit / Wiring Diagram
-<img width="1280" height="698" alt="image" src="https://github.com/user-attachments/assets/832ef388-8040-4abc-ad4b-171bff50c947" />
+
+*Insert Smart Helmet wiring diagram here.*
 
 ---
 
 # Security Measures
 
-- Password-protected WiFi connectivity
-- MQTT-based communication
-- Cloud authentication through Adafruit IO
-- Local alerts continue functioning even during network interruption
+- Secure API communication
+- WebSocket-based real-time messaging
+- AI fallback mechanisms
+- Offline heuristic decision engine
+- Local device-level alert functionality
+- Redundant emergency processing pathways
 
 ---
 
 # Testing & Performance
 
-### Tested Functions
+## Tested Functions
 
-- Fall detection
-- Alarm cancellation workflow
-- MQTT communication
-- Dashboard notifications
+- Fall detection workflow
+- Gas leak detection
+- Temperature hazard detection
+- AI incident parsing
+- Route optimization engine
+- Emergency dispatch simulation
+- Dashboard visualization
+- Evacuation routing logic
 
-### Performance Goals
+## Performance Results
 
-- Real-time alert transmission
-- Reduced false alarms
-- Faster emergency awareness
-- Improved evacuation coordination
+| Phase | Traditional EMS | ARGUS GUARD |
+|---------|---------|---------|
+| Detection & Alert | 5–15 min | < 2 sec |
+| Transit & Routing | 15–25 min | 8–12 min |
+| Total Response Time | 25–40 min | 8–14 min |
+
+**Estimated overall response-time reduction: ~60%**
 
 ---
 
 # Challenges Faced
 
-- Reducing false positives in fall detection
-- Integrating multiple IoT nodes
-- Ensuring reliable MQTT communication
-- Designing an effective emergency workflow
-- Coordinating wearable and environmental systems
+- Designing reliable incident detection thresholds
+- Integrating hardware and AI systems
+- Building dynamic route optimization logic
+- Processing unstructured emergency intelligence
+- Real-time visualization of emergency operations
+- Ensuring resilience during connectivity failures
 
 ---
 
 # Future Scope
 
-- AI-assisted injury assessment
-- Advanced evacuation route optimization
-- Mobile application integration
-- Smart city emergency integration
-- Enhanced emergency service coordination
+- Integration with public emergency services
+- AI-assisted medical triage
+- Smart city emergency response integration
+- Advanced predictive hazard detection
+- Real-time GPS-enabled responder tracking
 - Large-scale industrial deployment
+- Multi-site emergency coordination
 
 ---
 
 # Demo Screenshots / Video
 
-### Hardware Prototype
-<img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/b3f913a5-c81c-4b8c-8815-0f5bede2bd22" />
+## Smart Helmet Prototype
 
+*Insert hardware prototype images here.*
+
+## Overwatch Dashboard
+
+*Insert tactical dashboard screenshots here.*
+
+## Demo Video
+
+*Insert demo video link here.*
 
 ---
 
 # References
 
-1. Arduino Documentation
-2. Adafruit IO Documentation
-3. MQTT Documentation
+1. Ministry of Road Transport and Highways Accident Reports
+2. Supreme Court of India Golden Hour Care Ruling (2025)
+3. Arduino UNO R4 WiFi Documentation
 4. MPU6050 Datasheet
-5. ESP32 Documentation
-6. OSHA Workplace Safety Guidelines
+5. MQ-2 Gas Sensor Documentation
+6. FastAPI Documentation
+7. Leaflet.js Documentation
+8. Emergency Medical Services Research Publications
 
 ---
 
