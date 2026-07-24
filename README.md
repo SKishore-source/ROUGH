@@ -209,6 +209,8 @@ ARGUS-GUARD/
 6. Connect device to Adafruit IO.
 
 ## Dashboard
+<img width="1600" height="1236" alt="image" src="https://github.com/user-attachments/assets/6c8d8479-40e7-4527-b043-6e3e125c6c1f" />
+
 
 1. Create Adafruit IO dashboard.
 2. Configure MQTT feeds.
