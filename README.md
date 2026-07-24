@@ -123,6 +123,7 @@ ARGUS GUARD reduces response delays by automatically detecting emergencies, anal
 - Claude Haiku 4.5 (OpenRouter)
 ## SYSTEM ARCHITECTURE
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/538e48b0-2db7-411c-89cf-c40b6152da7e" />
+
 # Detailed Workflow
 
 ## Scenario 1: Worker Accident
