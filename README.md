@@ -256,7 +256,7 @@ LED Evacuation Indicators
 ```
 
 ### Circuit / Wiring Diagram
-*Insert circuit diagram image here.*
+<img width="1280" height="698" alt="image" src="https://github.com/user-attachments/assets/832ef388-8040-4abc-ad4b-171bff50c947" />
 
 ---
 
@@ -321,9 +321,6 @@ LED Evacuation Indicators
 
 ### Demo Video
 *Insert video link here.*
-
-### Circuit Diagram
-<img width="1280" height="698" alt="image" src="https://github.com/user-attachments/assets/832ef388-8040-4abc-ad4b-171bff50c947" />
 
 
 ---
