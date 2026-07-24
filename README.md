@@ -243,7 +243,7 @@ Workers Guided To Safety
 2. Connect to backend API.
 3. Open tactical command interface.
 4. Monitor live emergency events.
-<img width="2000" height="1545" alt="SS FINAL" src="https://github.com/user-attachments/assets/73cde45f-5be9-4db1-8935-810fa2f53dc3" />
+
 ---
 
 # Hardware Components
@@ -353,17 +353,14 @@ Worker Guidance
 
 # Demo Screenshots / Video
 
-## Smart Helmet Prototype
+## Prototype
 
-*Insert hardware prototype images here.*
+<img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/ffabeb42-52eb-4988-8616-9a9843e49a4d" />
+
 
 ## Overwatch Dashboard
 
-*Insert tactical dashboard screenshots here.*
-
-## Demo Video
-
-*Insert demo video link here.*
+<img width="2000" height="1545" alt="SS FINAL" src="https://github.com/user-attachments/assets/73cde45f-5be9-4db1-8935-810fa2f53dc3" />
 
 ---
 
@@ -379,7 +376,3 @@ Worker Guidance
 8. Emergency Medical Services Research Publications
 
 ---
-
-## Tagline
-
-**ARGUS GUARD — Safety in Seconds**
