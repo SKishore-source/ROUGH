@@ -253,9 +253,6 @@ LED Evacuation Indicators
 - Alarm cancellation workflow
 - MQTT communication
 - Dashboard notifications
-- Fire detection simulation
-- Hazard alert generation
-- Evacuation guidance workflow
 
 ### Performance Goals
 
