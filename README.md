@@ -201,29 +201,6 @@ Workers Guided To Safety
 
 ---
 
-# Folder Structure
-
-```text
-ARGUS-GUARD/
-
-├── hardware/
-│   ├── smart-helmet/
-
-├── backend/
-│   ├── fastapi-server/
-
-├── dashboard/
-│   ├── nexus-dashboard/
-
-├── routing-engine/
-
-├── assets/
-
-└── README.md
-```
-
----
-
 # Installation & Usage Guide
 
 ## Smart Helmet Setup
