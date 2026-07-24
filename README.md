@@ -163,30 +163,6 @@ LED Guidance Activated
 Workers Evacuated Safely
 ```
 
----
-
-# Folder Structure
-
-```text
-ARGUS-GUARD/
-
-├── wearable/
-│   └── wearable.ino
-
-├── smart-corridor/
-│   └── corridor.ino
-
-├── dashboard/
-
-├── diagrams/
-
-├── images/
-
-└── README.md
-```
-
----
-
 # Installation & Usage Guide
 
 ## Worker Wearable
