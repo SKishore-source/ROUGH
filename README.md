@@ -30,6 +30,22 @@ The two primary bottlenecks are:
 - Inefficient routing of emergency services through traffic congestion, roadblocks, and damaged infrastructure.
 
 These delays significantly reduce the chances of survival and effective treatment.
+Every year India loses **1.68 lakh lives** in road and industrial accidents — the majority preventable, not because medicine failed, but because **help arrived too late**.
+
+| Stat | Reality |
+|:---|:---|
+| India's share of global road deaths | **~11%** |
+| Accidents in India (2022) | **4.6 lakh** |
+| Victims receiving care within the Golden Hour | **< 20%** |
+| Average ambulance response time (national) | **25–30 minutes** |
+| Delhi metro response time (2024) | **17+ minutes (and worsening)** |
+| Supreme Court ruling (Jan 2025) | **Golden Hour care is a Fundamental Right under Article 21** |
+
+**The law says every person has a right to emergency care within the Golden Hour. The system is physically incapable of delivering it.**
+
+The two bottlenecks are simple but catastrophic:
+1. **Detection Delay (5–15 min):** We rely on bystanders to notice and call for help. Victims bleed out while people panic.
+2. **Routing Delay (10–20 min):** Ambulances are dispatched to the closest unit by straight-line distance — getting trapped in protests, strikes, damaged roads, and traffic gridlock.
 
 ---
 
