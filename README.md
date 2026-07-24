@@ -1,4 +1,6 @@
 <img width="500" height="500" alt="ARGUS GUARD" src="https://github.com/user-attachments/assets/7eceafe9-8a71-4b90-a9d0-6b04f9a52900" />
+
+
 # ARGUS GUARD
 
 ### Safety in Seconds
