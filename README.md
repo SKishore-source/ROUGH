@@ -113,69 +113,16 @@ ARGUS GUARD reduces response delays by automatically detecting emergencies, anal
 
 ## Software
 
-- Python FastAPI
 - HTML
 - CSS
 - JavaScript
-- Leaflet.js
 - WebSocket Communication
 
 ## AI Systems
 
 - Claude Haiku 4.5 (OpenRouter)
-- Llama 3.3 70B (Fallback)
-- Local Heuristic Decision Engine
-
-## Communication
-
-- Wi-Fi Connectivity
-- WebSockets
-- REST APIs
-
----
-
-# System Architecture Diagram
-
-```text
-┌──────────────────────┐
-│   SMART HELMET       │
-│  Operation Vanguard  │
-│                      │
-│ MPU6050             │
-│ MQ-2 Sensor         │
-│ DHT11 Sensor        │
-│ LED Matrix          │
-└──────────┬───────────┘
-           │
-           │ Alert Signal
-           ▼
-
-┌──────────────────────┐
-│ OVERWATCH BACKEND    │
-│ AI Dispatch Engine   │
-│                      │
-│ FastAPI Server       │
-│ AI Logic Parser      │
-│ Route Optimizer      │
-│ Crisis Analysis      │
-└──────────┬───────────┘
-           │
-           │ Real-Time Data
-           ▼
-
-┌──────────────────────┐
-│  NEXUS DASHBOARD     │
-│ Tactical Command UI  │
-│                      │
-│ Live Map             │
-│ Route Visualization  │
-│ AI Reasoning Log     │
-│ Dispatch Tracking    │
-└──────────────────────┘
-```
-
----
-
+## SYSTEM ARCHITECTURE
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/538e48b0-2db7-411c-89cf-c40b6152da7e" />
 # Detailed Workflow
 
 ## Scenario 1: Worker Accident
