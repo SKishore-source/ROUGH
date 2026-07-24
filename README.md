@@ -1,4 +1,3 @@
-# ROUGH
 # ARGUS GUARD
 
 ### Safety in Seconds
