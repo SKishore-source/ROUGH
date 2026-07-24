@@ -314,10 +314,7 @@ LED Evacuation Indicators
 # Demo Screenshots / Video
 
 ### Hardware Prototype
-
-
-### Demo Video
-*Insert video link here.*
+<img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/b3f913a5-c81c-4b8c-8815-0f5bede2bd22" />
 
 
 ---
