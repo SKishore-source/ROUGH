@@ -297,6 +297,10 @@ Worker Guidance
 
 <img width="2000" height="1545" alt="SS FINAL" src="https://github.com/user-attachments/assets/73cde45f-5be9-4db1-8935-810fa2f53dc3" />
 
+## Operation PathFinder
+
+<img width="1600" height="932" alt="image" src="https://github.com/user-attachments/assets/8441f345-16d2-4133-8200-9b314e24865c" />
+
 ---
 
 
